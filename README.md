@@ -3,6 +3,11 @@
 This is the backend of the application [GitHub-NoticesPage](https://github.com/JoseMi317/NoticesPage), designed to handle server-side logic, authentication, and database interactions. It uses Express as the main framework and MySQL as the database.
 Prerequisites
 
+**About the Framework**
+
+This backend is built using Express, a minimal and flexible Node.js web application framework. It provides robust features for building APIs and simplifies server-side development.
+
+
     Node.js (v16 or higher)
     MySQL
     Git (optional, to clone the repository)
@@ -10,27 +15,27 @@ Prerequisites
 **Installation**
     Clone this repository:
 
-    `
+    
     git clone <REPOSITORY_URL>
     cd backend
-    `
+    
     
 Install dependencies:
 
-  `
-  npm install
-  `
+  
+      npm install
+  
 
 Create a .env file in the root directory with the following variables:
 
-```
-  PORT=3000
-  DB_HOST=localhost
-  DB_USER=your_user
-  DB_PASSWORD=your_password
-  DB_NAME=your_database_name
-  JWT_SECRET=your_secret_key
-```
+
+      PORT=3000
+      DB_HOST=localhost
+      DB_USER=your_user
+      DB_PASSWORD=your_password
+      DB_NAME=your_database_name
+      JWT_SECRET=your_secret_key
+
 
 Start the server in development mode:
 
