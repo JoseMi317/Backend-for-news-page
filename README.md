@@ -24,6 +24,16 @@ Install dependencies:
 
   
       npm install
+
+Main Dependencies
+
+    bcrypt: For password hashing.
+    cors: To handle cross-origin requests.
+    dotenv: For managing environment variables.
+    express: Framework for building the server.
+    jsonwebtoken: For handling token-based authentication.
+    mysql2: MySQL client.
+    sequelize: ORM for managing relational databases.
   
 
 Create a .env file in the root directory with the following variables:
@@ -43,16 +53,6 @@ Start the server in development mode:
 
     The server will be available at http://localhost:3000 o in the port selected
 
-
-Main Dependencies
-
-    bcrypt: For password hashing.
-    cors: To handle cross-origin requests.
-    dotenv: For managing environment variables.
-    express: Framework for building the server.
-    jsonwebtoken: For handling token-based authentication.
-    mysql2: MySQL client.
-    sequelize: ORM for managing relational databases.
 
 Available Scripts
 
