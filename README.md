@@ -29,7 +29,7 @@ Install dependencies:
 Create a .env file in the root directory with the following variables:
 
 
-      PORT=3000
+      PORT=3000 <use any port if you want>
       DB_HOST=localhost
       DB_USER=your_user
       DB_PASSWORD=your_password
@@ -41,7 +41,7 @@ Start the server in development mode:
 
     npm run dev
 
-    The server will be available at http://localhost:3000.
+    The server will be available at http://localhost:3000 o in the port selected
 
 
 Main Dependencies
