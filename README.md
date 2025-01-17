@@ -28,7 +28,9 @@ Install dependencies:
 Main Dependencies
 
     bcrypt: For password hashing.
+        npm install bcrypt
     cors: To handle cross-origin requests.
+        npm install cors
     dotenv: For managing environment variables.
     express: Framework for building the server.
     jsonwebtoken: For handling token-based authentication.
