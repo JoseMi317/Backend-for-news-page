@@ -39,7 +39,7 @@ Create a .env file in the root directory with the following variables:
 
 Start the server in development mode:
 
-    npm run dev
+    node server.js
 
     The server will be available at http://localhost:3000 o in the port selected
 
@@ -56,7 +56,7 @@ Main Dependencies
 
 Available Scripts
 
-    npm run dev: Starts the server in development mode using nodemon.
+    node server.js: Starts the server in development mode using nodemon.
 
 Key Features
 
